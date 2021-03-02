@@ -1,0 +1,815 @@
+
+
+
+@media all and (min-width:1020px){
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    height:100vh;
+  }
+
+  
+  .container{
+    width:25%;
+   height:75vh;
+  
+   
+   position:relative;
+   float:right;
+   top:30px;
+   right:100px;
+  }
+  
+  .navbar{
+    background-color:#35488C;
+    width:100%;
+    height:12%;
+   position:absolute;
+  }
+
+  .logo{
+    width:3.5vw;
+   position:relative;
+   top:15%;
+   left:1.5%;
+   
+  }
+
+  .line{
+    width:12.5%;
+    height:50vh;
+    position: absolute;
+    color: #fff;
+    top:20%;
+    left: 5%;
+  }
+
+  .navbar2{
+    position: absolute;
+    top:12% ;
+    width: 100%;
+    height: 1%;
+    background-color: #F67D48;
+  }
+
+  .tagline{
+    width:22.5%;
+    height:60vh;
+    position: absolute;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #F67D48;
+    top:27%;
+    left: 10%;
+    font-size: 3.5vw;
+    font-weight: bold;
+  }
+
+  .tagline span{
+    color:#35488C;
+  }
+
+  .tagline1{
+    width:15%;
+    height:20vh;
+    color:#170220;
+    position: absolute;
+    top:62.5%;
+    left:10%;
+    font-size: 2vw;
+  }
+
+  .main{
+    
+    position: absolute;
+    left:30%;
+    top:20%;
+  }
+
+  .main img{
+   
+    width:45vw;
+  }
+
+  .arrow{
+    position:absolute;
+    top:77.5%;
+    left:15%;
+  }
+
+  .arrow img{
+    height:10vh;
+  }
+  .footer{
+    position: absolute;
+    bottom:0%;
+    width: 100%;
+    height: 7%;
+    background-color:  #35488C;
+  }
+
+  img{
+    max-width:100%;
+   
+  }
+
+
+  
+  .msg-header{
+    border: 1px solid #EFEFEF;
+    border-radius:8px 8px 0 0;
+    width:100%;
+    height:10%;
+    position:absolute;
+    background-color: #35488C;
+    display: flex;
+    justify-content: flex-start;
+   
+  }
+  
+  .msg-header-img{
+    border-radius:50%;
+    width:12%;
+    margin-left:2%;
+    margin-top: 1%;
+    
+    
+  }
+  
+  .active{
+     width:30%;
+     margin-left:2%;
+     margin-top:3.5%;
+  
+  }
+  
+  .active h4{
+    font-size:20px;
+    
+    color:#fff;
+    margin-bottom:none;
+  }
+  
+  
+  .msg-img{
+    margin-left: 2%;
+    margin-top: -11.5%;
+    width:12%;
+    
+  }
+  
+  .bot{
+  
+    background-color:#fffff7;
+    color:rgb(63,63,64);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border-radius: 0 10px 10px 10px;
+    text-align: left;
+    margin-top: 3%;
+    margin-left:15%;
+    border: 1px solid #d9d9d9 ;
+    padding: 15px 5px 10px 15px;
+    max-width: 65%;
+  
+  }
+  
+  .bottime{
+    font-weight:normal;
+    margin-left: 17%;
+    margin-top: -1%;
+    margin-bottom: 1%;
+  }
+  
+  .usertime{
+    font-weight: normal;
+    margin-left: 72%;
+    margin-top:12.5%;
+    margin-bottom: 1%;
+  }
+  
+  .input-box{
+    width:100%;
+    margin-top:none;
+    
+  }
+   input{
+    border: 1px solid #ccc;
+    border-radius:0 0 8px 8px;
+    height: 10%;
+    width: 100%;
+    outline: none;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+   position:absolute;
+    top:90%;
+    padding-left:10px;
+   }
+  
+  
+  .user{
+    background-color:#35488C;
+    color: white;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border-radius:10px 0 10px 10px;
+    text-align: right;
+    margin-top: 3%;
+    margin-right:5%;
+    
+    padding: 15px 5px 10px 15px;
+    max-width: 65%;
+    margin-left: auto;
+  }
+  
+  .historyContainer{
+    width:100%;
+    margin: 0%;
+    height:80%;
+    border: 1px solid #ccc;
+    overflow-y: scroll;
+    position:absolute;
+    top:10%;
+    background: #fff;
+  }
+  h1{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  } 
+  
+  button{
+    width:15vw;
+    padding: 5px;
+    margin-top:2%;
+     margin-left: 20%;
+     color:#000;
+     background-color: #fff;
+      border: 1px solid black;
+    border-radius: 2vw;
+    margin-bottom: 10px;
+  }
+   
+  .closebot {
+    width:5vw;
+    position: absolute;
+    bottom:8%;
+    right:3%;
+  } 
+
+  .bott {
+    position: absolute;
+    bottom: 8%;
+    right: 3%;
+  }
+  
+  .bott img{
+    
+    width:8vw ;
+  }
+  
+
+  .swiper{
+    width:300px;
+    margin-left:35px;
+  }
+  
+  .slide-img {
+    width:75%;
+    height: 30vh;
+   display: flex;
+   justify-content: center;
+   margin-left: 12%;
+  }
+  
+  .slide-content h4 {
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .jersey{
+    margin-top: 1%;
+  }
+
+  .price{
+    margin-top: -7%;
+    margin-bottom: 3%;
+  }
+  
+  
+  .summary{
+    width:95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left:2.5%;
+    margin-top: 3%;
+  }
+  
+  .receipt{
+    background-color:#35488C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height:7vh;
+    border: 1px solid #000;
+    border-bottom: none;
+    color:#fff;
+  }
+  
+  .details{
+    border:1px solid #000;
+    width: 100%;
+  }
+  
+  
+  .headingdetails{
+    display: flex;
+  justify-content: space-between;
+  }
+  
+  .itemname{
+    margin-left: 2%;
+  }
+  
+  .amount{
+    margin-right: 1.5%;
+  }
+  
+  .jerseydetails{
+    display: flex;
+    justify-content: space-between;
+  
+  }
+  
+  .jerseyname{
+    margin-left:2%;
+  }
+  
+  .jerseyamount{
+    margin-right: 5%;
+  }
+  
+  .accessorydetails{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1%;
+  }
+  
+  .accessoryname{
+    margin-left: 2%;
+  }
+  
+  .accessoryprice{
+     margin-right: 5%;
+  }
+  
+  .horizontal{
+    width: 95%;
+    margin-left: 2.5%;
+    margin-top: 1%;
+  }
+  
+  .pricedetails{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5%;
+  
+  }
+  
+  .subtotal{
+     margin-left: 2%;
+  }
+  
+  .jerseyprice{
+     margin-right: 5%;
+  }
+  
+  .gstdetails{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1%;
+    
+  }
+  
+  .gst{
+     margin-left: 2%;
+  }
+  
+  .gstprice{
+    margin-right: 5%;
+  }
+  
+  .totaldetails{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+  }
+  
+  .grandtotal{
+    margin-left: 2%;
+    font-weight: bold;
+  }
+  
+  .grandprice{
+    margin-right: 5%;
+  }
+  }
+  
+  @media all and (max-width:1020px){
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+  
+  
+    .container{
+      width:100%;
+     height:100%;
+     overflow-y: hidden;
+     overflow-x: hidden;
+   }
+  
+   .navbar{
+    background-color:#35488C;
+    width:100%;
+    height:9%;
+   position:absolute;
+   }
+
+   .logo{
+    width:10vw;
+   position:relative;
+   top:15%;
+   left:3%;
+   
+  }
+
+  .line{
+    width:35%;
+    height:50vh;
+    position: absolute;
+    color: #fff;
+    top:20%;
+    left: 12%;
+  }
+   
+   .navbar2{
+    position: absolute;
+    top:9% ;
+    width: 100%;
+    height: 1%;
+    background-color: #F67D48;
+  }
+
+  .tagline{
+    width:70%;
+    height:60%;
+    position: absolute;
+    font-family: apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #F67D48;
+    top:17.5%;
+    left: 15%;
+    font-size: 9.5vw;
+    font-weight: bold;
+    align-content: center;
+    text-align: center;
+  }
+
+  .tagline span{
+    color:#35488C;
+  }
+
+  .tagline1{
+    width:66%;
+    height:20vh;
+    color:#170220;
+    position: absolute;
+    top:70%;
+    left:15%;
+    font-size: 7vw;
+    text-align: center;
+  }
+
+  .main img{
+    position: absolute;
+    width:90%;
+    top:35%;
+    left:5%; 
+  }
+
+  .arrow{
+    position:absolute;
+    top:82%;
+    left:37.5%;
+  }
+
+  .arrow img{
+    height:7vh;
+  }
+  .footer{
+    position: absolute;
+    bottom:0%;
+    width: 100%;
+    height: 7%;
+    background-color:  #35488C;
+    z-index: -1;
+  }
+  
+  img{
+    max-width:100%;
+    
+  }
+  
+  .msg-header{
+    border: 1px solid #ccc;
+    z-index:2;
+    width:100%;
+    height:110px;
+    position:fixed;
+    top:0px;
+    background-color:#35488C;
+  }
+  
+  .msg-header-img{
+    border-radius:50%;
+    width:20%;
+    margin-top: 4%;
+    margin-left:5%;
+    z-index:0; 
+    float:left;
+    
+  }
+  
+  .active{
+    width:50%;
+    float:left;
+    margin-top:10%;
+    margin-left: 5%;
+  }
+  
+  .active h4{
+    font-size:25px;
+    
+    color:#fff;
+    margin-bottom:none;
+  }
+  
+  .historyContainer{
+    width:100%;
+    margin: 0%;
+    height:75%;
+    border: 1px solid #ccc;
+    overflow-y: scroll;
+    position:absolute;
+    top:110px;
+    background: #fff;
+    z-index:1;
+  }
+  
+  .msg-img{
+    margin-left: 0.5%;
+    margin-top: -10%;
+    width:13%;
+    
+  }
+  
+  .bot{
+    background-color: rgb(239, 239, 239);
+    color:rgb(63,63,64);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border-radius: 0 10px 10px 10px;
+    text-align: left;
+    margin-top: 3%;
+    margin-left:14%;
+    padding: 15px 5px 10px 15px;
+    max-width: 65%;
+  }
+  
+  .bottime{
+    font-weight:normal;
+    margin-left: 16%;
+    margin-top: -3%;
+    margin-bottom: 2%;
+  }
+  
+  .user{
+    background-color:#35488C;
+    color: white;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border-radius:10px 0 10px 10px;
+    text-align: right;
+    margin-top: 3%;
+    margin-right:2%;
+    
+    padding: 15px 15px 10px 15px;
+    max-width: 65%;
+    margin-left: auto;
+  }
+  
+  .usertime{
+    font-weight: normal;
+    margin-left: 75%;
+    margin-top:10%;
+    margin-bottom: 3%;
+  }
+  
+  
+  input{
+    border: 1px solid #ccc;
+    
+    height: 10%;
+    width: 100%;
+    outline: none;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+   position:absolute;
+    top:90%;
+    padding-left:10px;
+    z-index: 1;
+   }
+  
+   h1{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+   } 
+  
+  button{
+    width:50vw;
+    padding: 5px;
+    margin-top:1%;
+     margin-left: 25%;
+   color:#000;
+   background-color: #fff;
+    border: 1px solid black;
+    border-radius: 3vw;
+    margin-bottom: 2%;
+  }
+  
+  .bott {
+    position: absolute;
+    bottom: 7%;
+    right: 2%;
+    max-width:25%;
+
+  }
+  
+  .closebot{
+    position: absolute;
+    top:5%;
+    right:5%;
+    z-index: 23424;
+    width:10vw;
+  }
+  .swiper{
+    width:50vw;
+    margin-left:50%;
+  }
+  
+  .slide-img {
+   display: flex;
+   justify-content: center;
+   width:100%;
+   height:30vh;
+  }
+  
+  .jersey{
+    margin-top: 1%;
+  }
+
+  .price{
+    margin-top: -7%;
+    margin-bottom: 3%;
+  }
+
+  .slide-content h4{
+    display: flex;
+    justify-content: center;
+  
+  }
+  
+  .summary{
+    width:95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left:2.5%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+  
+  .receipt{
+    background-color:#35488C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height:7vh;
+    border: 1px solid #000;
+    border-bottom: none;
+    color:#fff;
+  }
+  
+  .details{
+    border:1px solid #000;
+    width: 100%;
+  }
+  
+  
+  .headingdetails{
+    display: flex;
+  justify-content: space-between;
+  }
+  
+  .itemname{
+    margin-left: 2%;
+  }
+  
+  .amount{
+    margin-right: 2%;
+  }
+  
+  .jerseydetails{
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+  .jerseyname{
+    margin-left: 3%;
+  }
+  
+  .jerseyamount{
+    margin-right: 10%;
+  }
+  
+  .accessorydetails{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1%;
+  }
+  
+  .accessoryname{
+    margin-left: 3%;
+  }
+  
+  .accessoryprice{
+     margin-right: 10%;
+  }
+  
+  .horizontal{
+    width: 85vw;
+    margin-left: 5%;
+    margin-top: 1%;
+  }
+  
+  .pricedetails{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5%;
+  
+  }
+  
+  .subtotal{
+     margin-left: 3%;
+  }
+  
+  .jerseyprice{
+     margin-right: 10%;
+  }
+  
+  .gstdetails{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1%;
+    
+  }
+  
+  .gst{
+     margin-left: 3%;
+  }
+  
+  .gstprice{
+    margin-right: 10%;
+  }
+  
+  .totaldetails{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+  }
+  
+  .grandtotal{
+    margin-left: 3%;
+    font-weight: bold;
+  }
+  
+  .grandprice{
+    margin-right: 10%;
+  }
+  
+  }

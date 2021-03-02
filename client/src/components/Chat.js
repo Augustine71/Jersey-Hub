@@ -180,7 +180,7 @@ componentDidUpdate() {
 }
 else if(a==="psg")
 {
-  this.setState({messages : [...this.state.messages, { message: e.target.id, type: "user",day:current.toLocaleString("default", { weekday: "short" }), time: current.toLocaleTimeString().replace(/(.*)\D\d+/, '$1'), class: "usertime", last:true   },
+  this.setState({messages : [...this.state.messages, { message: "Paris Saint Germain", type: "user",day:current.toLocaleString("default", { weekday: "short" }), time: current.toLocaleTimeString().replace(/(.*)\D\d+/, '$1'), class: "usertime", last:true   },
                 { message: "How many would you like?", type: "bot",day:current.toLocaleString("default", { weekday: "short" }), time: current.toLocaleTimeString().replace(/(.*)\D\d+/, '$1'), img: true, class: "bottime", last:true }]}
               );
   this.setState({bot:e.target.id});
@@ -190,7 +190,7 @@ else if(a==="psg")
 
 else if(a==="barca")
 {
-  this.setState({messages : [...this.state.messages, { message: e.target.id, type: "user",day:current.toLocaleString("default", { weekday: "short" }), time: current.toLocaleTimeString().replace(/(.*)\D\d+/, '$1'), class: "usertime", last:true   },
+  this.setState({messages : [...this.state.messages, { message: "Barcelona", type: "user",day:current.toLocaleString("default", { weekday: "short" }), time: current.toLocaleTimeString().replace(/(.*)\D\d+/, '$1'), class: "usertime", last:true   },
                 { message: "How many would you like?", type: "bot",day:current.toLocaleString("default", { weekday: "short" }), time: current.toLocaleTimeString().replace(/(.*)\D\d+/, '$1'), img: true, class: "bottime", last:true }]}
               );
   this.setState({bot:e.target.id});
@@ -200,7 +200,7 @@ else if(a==="barca")
 
 else if(a==="bayern")
 {
-  this.setState({messages : [...this.state.messages, { message: e.target.id, type: "user",day:current.toLocaleString("default", { weekday: "short" }), time: current.toLocaleTimeString().replace(/(.*)\D\d+/, '$1'), class: "usertime", last:true   },
+  this.setState({messages : [...this.state.messages, { message: "Bayern Munich", type: "user",day:current.toLocaleString("default", { weekday: "short" }), time: current.toLocaleTimeString().replace(/(.*)\D\d+/, '$1'), class: "usertime", last:true   },
                 { message: "How many would you like?", type: "bot",day:current.toLocaleString("default", { weekday: "short" }), time: current.toLocaleTimeString().replace(/(.*)\D\d+/, '$1'), img: true, class: "bottime", last:true }]}
               );
   this.setState({bot:e.target.id});

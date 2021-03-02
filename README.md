@@ -24,7 +24,7 @@ To run both frontend and backend
 
 ### Snapshots
 <p align="center">
-
+  <img src="https://user-images.githubusercontent.com/70998062/109609544-7a56ac00-7b51-11eb-82c2-a8fb1213449b.gif" width="700px" >
 <p>
 
 

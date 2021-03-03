@@ -127,7 +127,7 @@ componentDidUpdate() {
            console.log(a);
            if(a<900000){
           this.setState({messages : [...this.state.messages,{ message: "Your order is getting ready", type: "bot" },
-                         { message: "Hi! Welcome to Jersey Hub. I am Pele. How may i help you?", type: "bot", day:current.toLocaleString("default", { weekday: "short" }), time: current.toLocaleTimeString().replace(/(.*)\D\d+/, '$1'), img: true, class: "bottime", last:true  }]}
+                         { message: "Hi! Welcome to Jersey Hub. I am Pele. How may I help you?", type: "bot", day:current.toLocaleString("default", { weekday: "short" }), time: current.toLocaleTimeString().replace(/(.*)\D\d+/, '$1'), img: true, class: "bottime", last:true  }]}
                        ); 
           this.setState({message:""});
           this.setState({stage:1});
@@ -135,7 +135,7 @@ componentDidUpdate() {
                       }
          else if(a<1800000){
           this.setState({messages : [...this.state.messages,{ message: "Your order is out for delivery", type: "bot" },
-                        { message: "Hi! Welcome to Jersey Hub. I am Pele. How may i help you?", type: "bot", day:current.toLocaleString("default", { weekday: "short" }), time: current.toLocaleTimeString().replace(/(.*)\D\d+/, '$1'), img: true, class: "bottime", last:true  }]}
+                        { message: "Hi! Welcome to Jersey Hub. I am Pele. How may I help you?", type: "bot", day:current.toLocaleString("default", { weekday: "short" }), time: current.toLocaleTimeString().replace(/(.*)\D\d+/, '$1'), img: true, class: "bottime", last:true  }]}
                        ); 
           this.setState({message:""});
           this.setState({stage:1});
@@ -143,7 +143,7 @@ componentDidUpdate() {
                       }
          else if(a>1800000){
           this.setState({messages : [...this.state.messages,{ message: "Your order has been delivered", type: "bot" },
-                        { message: "Hi! Welcome to Jersey Hub. I am Pele. How may i help you?", type: "bot", day:current.toLocaleString("default", { weekday: "short" }), time: current.toLocaleTimeString().replace(/(.*)\D\d+/, '$1'), img: true, class: "bottime", last:true  }]}
+                        { message: "Hi! Welcome to Jersey Hub. I am Pele. How may I help you?", type: "bot", day:current.toLocaleString("default", { weekday: "short" }), time: current.toLocaleTimeString().replace(/(.*)\D\d+/, '$1'), img: true, class: "bottime", last:true  }]}
                        ); 
           this.setState({message:""});
           this.setState({stage:1});
@@ -151,8 +151,8 @@ componentDidUpdate() {
                       }                          
         })
          .catch(err=>{
-          this.setState({messages : [...this.state.messages, { message: "Please enter a valid order id", type: "bot" },
-                        { message: "Hi! Welcome to Jersey Hub. I am Pele. How may i help you?", type: "bot", day:current.toLocaleString("default", { weekday: "short" }), time: current.toLocaleTimeString().replace(/(.*)\D\d+/, '$1'), img: true, class: "bottime", last:true  }]}
+          this.setState({messages : [...this.state.messages, { message: "Your order ID is invalid", type: "bot" },
+                        { message: "Hi! Welcome to Jersey Hub. I am Pele. How may I help you?", type: "bot", day:current.toLocaleString("default", { weekday: "short" }), time: current.toLocaleTimeString().replace(/(.*)\D\d+/, '$1'), img: true, class: "bottime", last:true  }]}
                        );  
                        this.setState({ bot:'OrderJersey'}); 
         })
@@ -358,7 +358,7 @@ else if(a==="26")
 {
   this.setState({messages : [...this.state.messages, { message: "No", type: "user",day:current.toLocaleString("default", { weekday: "short" }), time: current.toLocaleTimeString().replace(/(.*)\D\d+/, '$1'), class: "usertime", last:true  },
                 { message: "Thank you for stopping by", type: "bot" },
-                { message: "Hi! Welcome to Jersey Hub. I am Pele. How may i help you?", type: "bot",day:current.toLocaleString("default", { weekday: "short" }), time: current.toLocaleTimeString().replace(/(.*)\D\d+/, '$1'), img: true, class: "bottime", last:true  }]}
+                { message: "Hi! Welcome to Jersey Hub. I am Pele. How may I help you?", type: "bot",day:current.toLocaleString("default", { weekday: "short" }), time: current.toLocaleTimeString().replace(/(.*)\D\d+/, '$1'), img: true, class: "bottime", last:true  }]}
                );
   this.setState({bot:"OrderFood"});
 }
@@ -388,7 +388,7 @@ render() {
           {/* Handle Messages */}
           <div className="historyContainer">
             
-            <div className=" bot">Hi! Welcome to Jersey Hub. I am Pele. How may i help you?</div>
+            <div className=" bot">Hi! Welcome to Jersey Hub. I am Pele. How may I help you?</div>
           <div className="msg-img">
            <img src={pele} alt="bot"/>
          </div>
